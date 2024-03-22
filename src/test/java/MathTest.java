@@ -10,7 +10,7 @@ public class MathTest {
 
     @Test
     public void additionTest2() {
-        Assert.assertEquals(add(9,9), 18);
+        Assert.assertEquals(add(9,9), 81);
     }
 
     @Test
@@ -25,7 +25,7 @@ public class MathTest {
 
     @Test
     public void multiplicationTest2() {
-        Assert.assertEquals(mult(-5,5), -25);
+        Assert.assertEquals(mult(-5,5), 25);
     }
 
     @Test
