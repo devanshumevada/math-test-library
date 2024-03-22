@@ -11,8 +11,6 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: 21
-      - name: Maven Command -  mvn clean
-        run: mvn clean
       - name: Testing - mvn test
         run: mvn test
 
