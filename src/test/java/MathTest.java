@@ -10,7 +10,7 @@ public class MathTest {
 
     @Test
     public void additionTest2() {
-        Assert.assertEquals(add(9,9), 81);
+        Assert.assertEquals(add(9,9), 18);
     }
 
     @Test
